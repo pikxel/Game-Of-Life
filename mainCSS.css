@@ -1,0 +1,101 @@
+.container-fluid{
+    background-color:lightgray;
+    position: relative;
+}
+html,body{
+    background-color:lightgray;
+    position: relative;
+}
+
+#TopMenu{
+    background-color:dimgray;
+    border:10px dimgray solid;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color:white !important;
+    padding-top:1%;
+}
+.TopMenuButtonsAdjust{
+   font-size:15px !important;
+   background-color:dimgrey !important; 
+   color:white !important;
+   width:100px;
+}
+
+.colum {
+    border: 1px outset grey;
+}
+body,html{
+    padding:0px;
+    margin:0px;
+}
+.well {
+    padding-bottom:0px !important;   
+    margin-bottom:0px !important;
+}
+#realBoard{
+    border: 10px dimgrey solid;
+    background-color:black;
+    border-radius: 10px;
+}
+.bottomMenuJS{
+   padding-top:1%;
+   font-size:15px !important;
+   background-color:dimgrey !important; 
+   color:white !important;
+   padding-bottom:1%;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+.secondRowBottomMenu{
+      padding-top:1%;
+}
+#bottomMenuButton{
+    width:120px;
+    font-size:17px;
+}
+.alive{
+    background-color:greenyellow
+}
+.activeButton{
+    background-color:lightslategrey !important;
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.col-xs-5ths {
+    width: 2.00%;
+    float: left;
+    height:17px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 5%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 5%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 2%;
+        float: left;
+    }
+}
